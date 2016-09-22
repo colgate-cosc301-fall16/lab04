@@ -25,7 +25,8 @@ int main(void) {
   int count = -ppid;
   //count = childcount(ppid);
 
-  for (int j = 0; j < i; j++) {
+  int j = 0;
+  for (j = 0; j < i; j++) {
     wait();
   }
 
